@@ -14,6 +14,7 @@ public class DockerizedSpringBootApplication {
 	public String getMessage(String str)
 	{
 		return "Welcome to Docker Example " + str;
+		//return "Welcome to Docker Example "  test branch
 	}
 	
 	public static void main(String[] args) {

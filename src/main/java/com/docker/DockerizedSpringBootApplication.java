@@ -13,7 +13,7 @@ public class DockerizedSpringBootApplication {
 	@GetMapping("/message")
 	public String getMessage(String str)
 	{
-		return "Welcome to Docker Example";
+		return "Welcome to Docker Example " + str;
 	}
 	
 	public static void main(String[] args) {
